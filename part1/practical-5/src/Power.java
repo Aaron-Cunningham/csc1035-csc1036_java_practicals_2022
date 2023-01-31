@@ -51,19 +51,23 @@ public class Power {
     }
 
     public int power(int x, int n){
+        // If n is set to 1 it will return x
         if (n == 1){
             return x;
         }
+        // If n is set to 2 it will square x
         else if (n == 2){
             return square(x);
         }
+        // If n is set to 3 it will cube x
         else if (n == 3) {
             return cube(x);
         }
+        // If n is set to 4 it will hypercube x
         else if (n == 4) {
             return hypercube(x);
         }
-
+        // Returns x value
         return x;
     }
 }
