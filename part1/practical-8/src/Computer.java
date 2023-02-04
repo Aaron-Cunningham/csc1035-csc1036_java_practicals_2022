@@ -51,6 +51,7 @@ public class Computer {
         Processor p1 = new Processor("Intel", "i9", 4000);
 
         Computer c = new Computer(p1,m1,s1);
+
         System.out.println(c);
 
 
